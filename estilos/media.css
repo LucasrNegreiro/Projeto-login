@@ -57,8 +57,8 @@ grandes telas: acima de 1200px
         font-size: 1.2em;
     }
 
-    form input[type=email]{
-        width: 80%;
+    .campo input{
+        transform: translatey(-7px);
     }
     
 }
