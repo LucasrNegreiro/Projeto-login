@@ -42,12 +42,12 @@ grandes telas: acima de 1200px
         width: 950px;
     }
     #login > #imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     #login > #formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
     #formulario h1{
@@ -55,6 +55,10 @@ grandes telas: acima de 1200px
 }
     #formulario p{
         font-size: 1.2em;
+    }
+
+    form input[type=email]{
+        width: 80%;
     }
     
 }
